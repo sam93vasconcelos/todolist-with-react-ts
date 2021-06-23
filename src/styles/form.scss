@@ -1,0 +1,16 @@
+section.form-add-task {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input, button {
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+  }
+
+  button {
+    background: rgb(135, 135, 253);
+  }
+}

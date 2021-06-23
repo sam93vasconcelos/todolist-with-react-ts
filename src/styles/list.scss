@@ -1,0 +1,35 @@
+.task-headers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-count {
+  margin-left: 10px;
+  background: rgb(235, 142, 207);
+  padding: 5px 15px;
+  border-radius: 9999px;
+}
+
+.task-list {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  
+  ul {
+    background: white;
+    padding: 0 20px;
+    min-width: 400px;
+
+    li {
+      list-style-type: none;
+      margin: 20px 0;
+
+      input {
+        margin-right: 10px;
+      }
+    }
+  }
+}
