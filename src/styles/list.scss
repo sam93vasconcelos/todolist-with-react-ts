@@ -33,3 +33,20 @@
     }
   }
 }
+
+
+
+.remove-task {
+  margin-left: 20px;
+  background: rgb(192, 63, 63);
+  border: none;
+  border-radius: 9999px;
+  width: 40px;
+  height: 20px;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .7;
+  }
+}

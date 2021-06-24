@@ -1,4 +1,4 @@
-import { ChangeEvent } from "react";
+import Remove from './Remove';
 
 import "./styles/list.scss";
 
@@ -38,6 +38,8 @@ function List(props: ListProps) {
                 type="checkbox"
               />
               <label htmlFor={`task-${i}-${task.task}`}>{task.task}</label>
+              
+              <Remove task={task} tasks={props.tasks} setTasks={props.setTasks} />
             </li>
           ))}
         </ul>
