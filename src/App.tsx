@@ -3,13 +3,17 @@ import React, { useState } from 'react';
 import Form from './Form'
 import List from './List';
 import './styles/global.scss'
+import Icon from './assets/icon.png'
 
 function App() {
   const [tasks, setTasks] = useState<object[]>([]);
 
   return (
     <main>
-      <h1>To Do List com React TS</h1>
+      <div className="header">
+        <img className="task-icon" src={ Icon } alt="Icone"/>
+        <h1>To Do List</h1>
+      </div>
 
       <Form tasks={tasks} setTasks={setTasks} />
 

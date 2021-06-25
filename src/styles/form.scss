@@ -14,3 +14,20 @@ section.form-add-task {
     background: rgb(135, 135, 253);
   }
 }
+
+@media (max-width: 768px) {
+  section.form-add-task {
+    width: 100%;
+  
+    input, button {
+      font-size: 14px;
+      border: none;
+      width: 45%;
+    }
+  
+    button {
+      font-size: 14px;
+      width: 40%;
+    }
+  }
+}

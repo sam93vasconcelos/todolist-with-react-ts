@@ -50,3 +50,13 @@
     opacity: .7;
   }
 }
+
+@media (max-width: 768px) {
+  .task-list {
+  
+    ul {
+      width: 90%;
+      min-width: 90%;
+    }
+  }
+}
